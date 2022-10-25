@@ -1,5 +1,5 @@
 {% set name = "PartSeg-smfish" %}
-{% set version = "0.1.0" %}
+{% set version = "0.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/PartSeg-smfish-{{ version }}.tar.gz
-  sha256: ef3864e51e1f2dbb0bf16ade5fad19eddbb9346b3cb9493d27a0cb30927e56ba
+  sha256: 26daad38bdd1aa182d7d87a73e54d23896162f8ce9116e9f943ea23dda0ec57c
 
 build:
   noarch: python
